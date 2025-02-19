@@ -26,7 +26,7 @@ index=main sourcetype=syslog "Firewall"
 
 This returned events related to firewall activity, helping me spot connections and traffic patterns. The logs showed packet details, including source and destination IPs, MAC addresses, and protocol info.
 
-![Firewall Log Search](/mnt/data/syslog%20firewall.png)
+![Firewall Log Search](/main/data/syslog%20firewall.png)
 
 
 ## Tracking Failed SSH Logins
