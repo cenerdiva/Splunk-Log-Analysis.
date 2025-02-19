@@ -39,7 +39,7 @@ index=main sourcetype=syslog "failed password"
 
 There it was!! Multiple failed login attempts from a sketchy IP. Classic brute-force attack behavior.
 
-![Failed SSH Logins](failed_password.png) https://github.com/cenerdiva/Splunk-Log-Analysis./blob/d4d3e42cb6c2246143ce1533daaa2c72657e3ad7/failed%20password.png 
+ ![Image](https://github.com/user-attachments/assets/adb79235-5e6e-41a2-9ab4-c9688241c88f)
 
 
 ## Checking Successful SSH Logins
