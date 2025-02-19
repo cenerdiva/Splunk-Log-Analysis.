@@ -39,7 +39,7 @@ index=main sourcetype=syslog "failed password"
 
 There it was!! Multiple failed login attempts from a sketchy IP. Classic brute-force attack behavior.
 
-![Failed SSH Logins](images/failed_password.png)
+![Failed SSH Logins](failed_password.png)
 
 
 ## Checking Successful SSH Logins
