@@ -1,0 +1,19 @@
+
+---
+
+### **4. Add Your Screenshots**
+- Create a folder called **screenshots/** inside the repo.
+- Move your images into this folder and rename them:
+  - `firewall_logs.png`
+  - `failed_ssh.png`
+  - `ssh_auth.png`
+- Update the **README.md** file with the correct image paths.
+
+---
+
+### **5. Push Everything to GitHub**
+Run these commands:
+```bash
+git add .
+git commit -m "Initial commit: Added Splunk log analysis"
+git push origin main
