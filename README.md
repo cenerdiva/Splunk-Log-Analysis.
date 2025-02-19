@@ -52,8 +52,7 @@ index=main sourcetype=syslog "sshd"
 
 This gave me a mix of failed and accepted logins, which helped paint a clearer picture of who was actually getting in vs. who was trying (and failing).
 
-![SSH Authentication](/mnt/data/syslog%20ssh.png)
-
+![Image](https://github.com/user-attachments/assets/faa7e6f9-e8b0-43c8-ad45-1f2d9c83e912) 
 
 
 ## Conclusion
