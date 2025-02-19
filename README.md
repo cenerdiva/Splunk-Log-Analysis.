@@ -16,7 +16,7 @@ Understanding how to analyze security logs using Splunk, focusing on firewall ev
 
 ## Searching Firewall Logs
 
-If you're diving into Splunk to analyze security logs, you're in the right place. In this walkthrough, I'll break down how I used Splunk to search for firewall events and SSH authentication attempts, complete with screenshots.
+If you are diving into Splunk to analyze security logs, you are in the right place. In this walkthrough, I will break down how I used Splunk to search for firewall events and SSH authentication attempts, complete with screenshots.
 
 First up, I ran a query to pull firewall logs from my syslog data:
 
@@ -34,7 +34,7 @@ Next, I wanted to see if someone was hammering my SSH service with failed login 
 index=main sourcetype=syslog "failed password"
 ```
 
-Boom—there it was. Multiple failed login attempts from a sketchy IP. Classic brute-force attack behavior.
+There it was!! Multiple failed login attempts from a sketchy IP. Classic brute-force attack behavior.
 
 ## Checking Successful SSH Logins
 
@@ -46,9 +46,9 @@ index=main sourcetype=syslog "sshd"
 
 This gave me a mix of failed and accepted logins, which helped paint a clearer picture of who was actually getting in vs. who was trying (and failing).
 
-## Wrapping Up
+## Conclusion
 
 Splunk makes it super easy to sift through logs and find potential security threats. Whether it's tracking firewall activity or spotting unauthorized SSH attempts, having the right queries makes all the difference.
 
-Got any other Splunk tips? Hit me up—I'm always down to learn more! 🚀
+Kindly share any more splunk tips that would aid in my development of this skill. 
 
