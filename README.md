@@ -46,6 +46,11 @@ index=main sourcetype=syslog "sshd"
 
 This gave me a mix of failed and accepted logins, which helped paint a clearer picture of who was actually getting in vs. who was trying (and failing).
 
+## Screenshots
+
+Here are some screenshots of the searches in action:
+
+
 ## Conclusion
 
 Splunk makes it super easy to sift through logs and find potential security threats. Whether it's tracking firewall activity or spotting unauthorized SSH attempts, having the right queries makes all the difference.
